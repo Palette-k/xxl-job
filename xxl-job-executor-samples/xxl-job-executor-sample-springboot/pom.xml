@@ -43,12 +43,22 @@
             <scope>test</scope>
         </dependency>
 
+
         <!-- xxl-job-core -->
         <dependency>
             <groupId>com.xuxueli</groupId>
             <artifactId>xxl-job-core</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
+
+        <!--自动注册 xxl-job 组件（自定义）-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>lab-28-task-xxl-job</artifactId>
+            <version>2.2.1.RELEASE</version>
+        </dependency>
+
+
 
     </dependencies>
 
